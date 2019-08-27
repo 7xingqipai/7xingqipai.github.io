@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+.close1 {
+	/*width: 300px;*/
+	height: 60px;
+}
+#closebt {
+	float: right;
+}
+#closebt img {
+	width: 30px;
+}
+
+/**广告开始代码**/
+
+.bottomAD {
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 1000;
+    padding: 0 1px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bottom-btn {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    /* background-color: #60b900; */
+    border-radius: 6px;
+    text-align: center;
+    font-size: 10px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.bottomAD a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+	left: 0;
+}
+
+/**广告结束代码**/
